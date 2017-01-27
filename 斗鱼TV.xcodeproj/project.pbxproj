@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9DA33E2A7D5A9A4A0375473F /* Pods___TV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9962DE35AB5F4337A3066EA9 /* Pods___TV.framework */; };
 		D666DF941E3AC4120035DBFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D666DF931E3AC4120035DBFD /* AppDelegate.swift */; };
 		D666DF961E3AC4120035DBFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D666DF951E3AC4120035DBFD /* ViewController.swift */; };
 		D666DF991E3AC4120035DBFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D666DF971E3AC4120035DBFD /* Main.storyboard */; };
@@ -34,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		72BEC5094B465522DB540C87 /* Pods-斗鱼TV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-斗鱼TV.release.xcconfig"; path = "Pods/Target Support Files/Pods-斗鱼TV/Pods-斗鱼TV.release.xcconfig"; sourceTree = "<group>"; };
+		7903866D02B8D3974513C8E8 /* Pods-斗鱼TV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-斗鱼TV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-斗鱼TV/Pods-斗鱼TV.debug.xcconfig"; sourceTree = "<group>"; };
+		9962DE35AB5F4337A3066EA9 /* Pods___TV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods___TV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D666DF901E3AC4120035DBFD /* 斗鱼TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "斗鱼TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D666DF931E3AC4120035DBFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D666DF951E3AC4120035DBFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA33E2A7D5A9A4A0375473F /* Pods___TV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2458453C161B4EFEC5290B78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7903866D02B8D3974513C8E8 /* Pods-斗鱼TV.debug.xcconfig */,
+				72BEC5094B465522DB540C87 /* Pods-斗鱼TV.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D666DF871E3AC4120035DBFD = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +95,8 @@
 				D666DFA71E3AC4120035DBFD /* 斗鱼TVTests */,
 				D666DFB21E3AC4120035DBFD /* 斗鱼TVUITests */,
 				D666DF911E3AC4120035DBFD /* Products */,
+				2458453C161B4EFEC5290B78 /* Pods */,
+				EC67F4ED385734EF75D9DF5B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +141,14 @@
 			path = "斗鱼TVUITests";
 			sourceTree = "<group>";
 		};
+		EC67F4ED385734EF75D9DF5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9962DE35AB5F4337A3066EA9 /* Pods___TV.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D666DFB81E3AC4120035DBFD /* Build configuration list for PBXNativeTarget "斗鱼TV" */;
 			buildPhases = (
+				7B79DE6703E051EBF24D3681 /* [CP] Check Pods Manifest.lock */,
 				D666DF8C1E3AC4120035DBFD /* Sources */,
 				D666DF8D1E3AC4120035DBFD /* Frameworks */,
 				D666DF8E1E3AC4120035DBFD /* Resources */,
+				0CB9D9846B132E44B71BDCEA /* [CP] Embed Pods Frameworks */,
+				FA02EBCC22F8162FD92D6CEB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +283,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CB9D9846B132E44B71BDCEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-斗鱼TV/Pods-斗鱼TV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B79DE6703E051EBF24D3681 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA02EBCC22F8162FD92D6CEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-斗鱼TV/Pods-斗鱼TV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D666DF8C1E3AC4120035DBFD /* Sources */ = {
@@ -413,6 +488,7 @@
 		};
 		D666DFB91E3AC4120035DBFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7903866D02B8D3974513C8E8 /* Pods-斗鱼TV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z7E635ANVA;
@@ -426,6 +502,7 @@
 		};
 		D666DFBA1E3AC4120035DBFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72BEC5094B465522DB540C87 /* Pods-斗鱼TV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z7E635ANVA;
