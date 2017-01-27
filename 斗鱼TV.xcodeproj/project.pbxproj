@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		72BEC5094B465522DB540C87 /* Pods-斗鱼TV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-斗鱼TV.release.xcconfig"; path = "Pods/Target Support Files/Pods-斗鱼TV/Pods-斗鱼TV.release.xcconfig"; sourceTree = "<group>"; };
 		7903866D02B8D3974513C8E8 /* Pods-斗鱼TV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-斗鱼TV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-斗鱼TV/Pods-斗鱼TV.debug.xcconfig"; sourceTree = "<group>"; };
-		9962DE35AB5F4337A3066EA9 /* Pods___TV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods___TV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9962DE35AB5F4337A3066EA9 /* Pods___TV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods___TV.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D666DF901E3AC4120035DBFD /* 斗鱼TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "斗鱼TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D666DF931E3AC4120035DBFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D666DF951E3AC4120035DBFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +113,7 @@
 		D666DF921E3AC4120035DBFD /* 斗鱼TV */ = {
 			isa = PBXGroup;
 			children = (
+				D666DFC31E3AD07A0035DBFD /* Classes */,
 				D666DF931E3AC4120035DBFD /* AppDelegate.swift */,
 				D666DF951E3AC4120035DBFD /* ViewController.swift */,
 				D666DF971E3AC4120035DBFD /* Main.storyboard */,
@@ -139,6 +140,230 @@
 				D666DFB51E3AC4120035DBFD /* Info.plist */,
 			);
 			path = "斗鱼TVUITests";
+			sourceTree = "<group>";
+		};
+		D666DFC31E3AD07A0035DBFD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D666DFC61E3AD07A0035DBFD /* Main */,
+				D666DFC41E3AD07A0035DBFD /* Follow */,
+				D666DFCE1E3AD07A0035DBFD /* Home */,
+				D666DFD31E3AD07A0035DBFD /* Live */,
+				D666DFD81E3AD07A0035DBFD /* Profile */,
+				D666DFD91E3AD07A0035DBFD /* Room */,
+				D666DFDE1E3AD07A0035DBFD /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D666DFC41E3AD07A0035DBFD /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				D666DFC51E3AD07A0035DBFD /* Controller */,
+				D666DFCB1E3AD07A0035DBFD /* Model */,
+				D666DFCC1E3AD07A0035DBFD /* View */,
+				D666DFCD1E3AD07A0035DBFD /* ViewModel */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		D666DFC51E3AD07A0035DBFD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D666DFC61E3AD07A0035DBFD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D666DFC71E3AD07A0035DBFD /* Controller */,
+				D666DFC81E3AD07A0035DBFD /* Model */,
+				D666DFC91E3AD07A0035DBFD /* View */,
+				D666DFCA1E3AD07A0035DBFD /* ViewModel */,
+			);
+			name = Main;
+			path = Follow/Main;
+			sourceTree = "<group>";
+		};
+		D666DFC71E3AD07A0035DBFD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D666DFC81E3AD07A0035DBFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D666DFC91E3AD07A0035DBFD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D666DFCA1E3AD07A0035DBFD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D666DFCB1E3AD07A0035DBFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D666DFCC1E3AD07A0035DBFD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D666DFCD1E3AD07A0035DBFD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D666DFCE1E3AD07A0035DBFD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D666DFCF1E3AD07A0035DBFD /* Controller */,
+				D666DFD01E3AD07A0035DBFD /* Model */,
+				D666DFD11E3AD07A0035DBFD /* View */,
+				D666DFD21E3AD07A0035DBFD /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D666DFCF1E3AD07A0035DBFD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D666DFD01E3AD07A0035DBFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D666DFD11E3AD07A0035DBFD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D666DFD21E3AD07A0035DBFD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D666DFD31E3AD07A0035DBFD /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				D666DFD41E3AD07A0035DBFD /* Controller */,
+				D666DFD51E3AD07A0035DBFD /* Model */,
+				D666DFD61E3AD07A0035DBFD /* View */,
+				D666DFD71E3AD07A0035DBFD /* ViewModel */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		D666DFD41E3AD07A0035DBFD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D666DFD51E3AD07A0035DBFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D666DFD61E3AD07A0035DBFD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D666DFD71E3AD07A0035DBFD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D666DFD81E3AD07A0035DBFD /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D666DFD91E3AD07A0035DBFD /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				D666DFDA1E3AD07A0035DBFD /* Controller */,
+				D666DFDB1E3AD07A0035DBFD /* Model */,
+				D666DFDC1E3AD07A0035DBFD /* View */,
+				D666DFDD1E3AD07A0035DBFD /* ViewModel */,
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		D666DFDA1E3AD07A0035DBFD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D666DFDB1E3AD07A0035DBFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D666DFDC1E3AD07A0035DBFD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D666DFDD1E3AD07A0035DBFD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D666DFDE1E3AD07A0035DBFD /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 		EC67F4ED385734EF75D9DF5B /* Frameworks */ = {
@@ -591,6 +816,7 @@
 				D666DFBA1E3AC4120035DBFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D666DFBB1E3AC4120035DBFD /* Build configuration list for PBXNativeTarget "斗鱼TVTests" */ = {
 			isa = XCConfigurationList;
@@ -599,6 +825,7 @@
 				D666DFBD1E3AC4120035DBFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D666DFBE1E3AC4120035DBFD /* Build configuration list for PBXNativeTarget "斗鱼TVUITests" */ = {
 			isa = XCConfigurationList;
@@ -607,6 +834,7 @@
 				D666DFC01E3AC4120035DBFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

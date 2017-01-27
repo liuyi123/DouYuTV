@@ -17,6 +17,7 @@ pod 'MJExtension'
 pod 'MJRefresh'
 pod 'Masonry'
 pod 'ReactiveObjC', '~> 2.1.2'
+pod 'ReactiveCocoa', '5.0.0-alpha.3'
 
 
 end
