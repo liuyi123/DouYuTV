@@ -12,9 +12,12 @@
 		D666DF961E3AC4120035DBFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D666DF951E3AC4120035DBFD /* ViewController.swift */; };
 		D666DF991E3AC4120035DBFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D666DF971E3AC4120035DBFD /* Main.storyboard */; };
 		D666DF9B1E3AC4120035DBFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D666DF9A1E3AC4120035DBFD /* Assets.xcassets */; };
-		D666DF9E1E3AC4120035DBFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D666DF9C1E3AC4120035DBFD /* LaunchScreen.storyboard */; };
 		D666DFA91E3AC4120035DBFD /* __TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D666DFA81E3AC4120035DBFD /* __TVTests.swift */; };
 		D666DFB41E3AC4120035DBFD /* __TVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D666DFB31E3AC4120035DBFD /* __TVUITests.swift */; };
+		D666DFE31E3AD94A0035DBFD /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D666DFE21E3AD94A0035DBFD /* Home.storyboard */; };
+		D666DFE61E3AD9CA0035DBFD /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D666DFE41E3AD9CA0035DBFD /* Live.storyboard */; };
+		D666DFE81E3ADAA00035DBFD /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D666DFE71E3ADAA00035DBFD /* Follow.storyboard */; };
+		D666DFEB1E3ADAD30035DBFD /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D666DFE91E3ADAD30035DBFD /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +46,6 @@
 		D666DF951E3AC4120035DBFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D666DF981E3AC4120035DBFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D666DF9A1E3AC4120035DBFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D666DF9D1E3AC4120035DBFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D666DF9F1E3AC4120035DBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D666DFA41E3AC4120035DBFD /* 斗鱼TVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "斗鱼TVTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D666DFA81E3AC4120035DBFD /* __TVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __TVTests.swift; sourceTree = "<group>"; };
@@ -51,6 +53,10 @@
 		D666DFAF1E3AC4120035DBFD /* 斗鱼TVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "斗鱼TVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D666DFB31E3AC4120035DBFD /* __TVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __TVUITests.swift; sourceTree = "<group>"; };
 		D666DFB51E3AC4120035DBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D666DFE21E3AD94A0035DBFD /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = ../../Home.storyboard; sourceTree = "<group>"; };
+		D666DFE51E3AD9CA0035DBFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Live.storyboard; sourceTree = "<group>"; };
+		D666DFE71E3ADAA00035DBFD /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Follow.storyboard; path = ../../Follow.storyboard; sourceTree = "<group>"; };
+		D666DFEA1E3ADAD30035DBFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,9 +122,7 @@
 				D666DFC31E3AD07A0035DBFD /* Classes */,
 				D666DF931E3AC4120035DBFD /* AppDelegate.swift */,
 				D666DF951E3AC4120035DBFD /* ViewController.swift */,
-				D666DF971E3AC4120035DBFD /* Main.storyboard */,
 				D666DF9A1E3AC4120035DBFD /* Assets.xcassets */,
-				D666DF9C1E3AC4120035DBFD /* LaunchScreen.storyboard */,
 				D666DF9F1E3AC4120035DBFD /* Info.plist */,
 			);
 			path = "斗鱼TV";
@@ -146,9 +150,9 @@
 			isa = PBXGroup;
 			children = (
 				D666DFC61E3AD07A0035DBFD /* Main */,
-				D666DFC41E3AD07A0035DBFD /* Follow */,
 				D666DFCE1E3AD07A0035DBFD /* Home */,
 				D666DFD31E3AD07A0035DBFD /* Live */,
+				D666DFC41E3AD07A0035DBFD /* Follow */,
 				D666DFD81E3AD07A0035DBFD /* Profile */,
 				D666DFD91E3AD07A0035DBFD /* Room */,
 				D666DFDE1E3AD07A0035DBFD /* Tools */,
@@ -159,6 +163,7 @@
 		D666DFC41E3AD07A0035DBFD /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				D666DFE71E3ADAA00035DBFD /* Follow.storyboard */,
 				D666DFC51E3AD07A0035DBFD /* Controller */,
 				D666DFCB1E3AD07A0035DBFD /* Model */,
 				D666DFCC1E3AD07A0035DBFD /* View */,
@@ -177,6 +182,7 @@
 		D666DFC61E3AD07A0035DBFD /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				D666DF971E3AC4120035DBFD /* Main.storyboard */,
 				D666DFC71E3AD07A0035DBFD /* Controller */,
 				D666DFC81E3AD07A0035DBFD /* Model */,
 				D666DFC91E3AD07A0035DBFD /* View */,
@@ -238,6 +244,7 @@
 		D666DFCE1E3AD07A0035DBFD /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				D666DFE21E3AD94A0035DBFD /* Home.storyboard */,
 				D666DFCF1E3AD07A0035DBFD /* Controller */,
 				D666DFD01E3AD07A0035DBFD /* Model */,
 				D666DFD11E3AD07A0035DBFD /* View */,
@@ -277,6 +284,7 @@
 		D666DFD31E3AD07A0035DBFD /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				D666DFE41E3AD9CA0035DBFD /* Live.storyboard */,
 				D666DFD41E3AD07A0035DBFD /* Controller */,
 				D666DFD51E3AD07A0035DBFD /* Model */,
 				D666DFD61E3AD07A0035DBFD /* View */,
@@ -316,6 +324,7 @@
 		D666DFD81E3AD07A0035DBFD /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				D666DFE91E3ADAD30035DBFD /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -487,8 +496,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D666DF9E1E3AC4120035DBFD /* LaunchScreen.storyboard in Resources */,
+				D666DFEB1E3ADAD30035DBFD /* Profile.storyboard in Resources */,
+				D666DFE81E3ADAA00035DBFD /* Follow.storyboard in Resources */,
+				D666DFE31E3AD94A0035DBFD /* Home.storyboard in Resources */,
 				D666DF9B1E3AC4120035DBFD /* Assets.xcassets in Resources */,
+				D666DFE61E3AD9CA0035DBFD /* Live.storyboard in Resources */,
 				D666DF991E3AC4120035DBFD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -605,14 +617,25 @@
 				D666DF981E3AC4120035DBFD /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../../..;
 			sourceTree = "<group>";
 		};
-		D666DF9C1E3AC4120035DBFD /* LaunchScreen.storyboard */ = {
+		D666DFE41E3AD9CA0035DBFD /* Live.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D666DF9D1E3AC4120035DBFD /* Base */,
+				D666DFE51E3AD9CA0035DBFD /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Live.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D666DFE91E3ADAD30035DBFD /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D666DFEA1E3ADAD30035DBFD /* Base */,
+			);
+			name = Profile.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -716,6 +739,7 @@
 			baseConfigurationReference = 7903866D02B8D3974513C8E8 /* Pods-斗鱼TV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				DEVELOPMENT_TEAM = Z7E635ANVA;
 				INFOPLIST_FILE = "斗鱼TV/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -730,6 +754,7 @@
 			baseConfigurationReference = 72BEC5094B465522DB540C87 /* Pods-斗鱼TV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				DEVELOPMENT_TEAM = Z7E635ANVA;
 				INFOPLIST_FILE = "斗鱼TV/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
