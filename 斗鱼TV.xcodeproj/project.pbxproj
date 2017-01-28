@@ -111,7 +111,7 @@
 		D666DF921E3AC4120035DBFD /* 斗鱼TV */ = {
 			isa = PBXGroup;
 			children = (
-				D6D5D28E1E3D03E700748468 /* Classes */,
+				D6D5D2AA1E3D05A000748468 /* Classes */,
 				D65C1ED91E3B554C008A38E7 /* Main.storyboard */,
 				D666DF931E3AC4120035DBFD /* AppDelegate.swift */,
 				D666DF951E3AC4120035DBFD /* ViewController.swift */,
@@ -139,223 +139,223 @@
 			path = "斗鱼TVUITests";
 			sourceTree = "<group>";
 		};
-		D6D5D28E1E3D03E700748468 /* Classes */ = {
+		D6D5D2AA1E3D05A000748468 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D6D5D28F1E3D03E700748468 /* Follow */,
-				D6D5D2941E3D03E700748468 /* Home */,
-				D6D5D2991E3D03E700748468 /* Live */,
-				D6D5D29E1E3D03E700748468 /* Main */,
-				D6D5D2A31E3D03E700748468 /* Profile */,
-				D6D5D2A41E3D03E700748468 /* Room */,
-				D6D5D2A91E3D03E700748468 /* Tools */,
+				D6D5D2AB1E3D05A000748468 /* Follow */,
+				D6D5D2B01E3D05A000748468 /* Home */,
+				D6D5D2B51E3D05A000748468 /* Live */,
+				D6D5D2BA1E3D05A000748468 /* Main */,
+				D6D5D2BF1E3D05A000748468 /* Profile */,
+				D6D5D2C01E3D05A000748468 /* Room */,
+				D6D5D2C51E3D05A000748468 /* Tools */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		D6D5D28F1E3D03E700748468 /* Follow */ = {
+		D6D5D2AB1E3D05A000748468 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
-				D6D5D2901E3D03E700748468 /* Controller */,
-				D6D5D2911E3D03E700748468 /* Model */,
-				D6D5D2921E3D03E700748468 /* View */,
-				D6D5D2931E3D03E700748468 /* ViewModel */,
+				D6D5D2AC1E3D05A000748468 /* Controller */,
+				D6D5D2AD1E3D05A000748468 /* Model */,
+				D6D5D2AE1E3D05A000748468 /* View */,
+				D6D5D2AF1E3D05A000748468 /* ViewModel */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
 		};
-		D6D5D2901E3D03E700748468 /* Controller */ = {
+		D6D5D2AC1E3D05A000748468 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		D6D5D2911E3D03E700748468 /* Model */ = {
+		D6D5D2AD1E3D05A000748468 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		D6D5D2921E3D03E700748468 /* View */ = {
+		D6D5D2AE1E3D05A000748468 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		D6D5D2931E3D03E700748468 /* ViewModel */ = {
+		D6D5D2AF1E3D05A000748468 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		D6D5D2941E3D03E700748468 /* Home */ = {
+		D6D5D2B01E3D05A000748468 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				D6D5D2951E3D03E700748468 /* Controller */,
-				D6D5D2961E3D03E700748468 /* Model */,
-				D6D5D2971E3D03E700748468 /* View */,
-				D6D5D2981E3D03E700748468 /* ViewModel */,
+				D6D5D2B11E3D05A000748468 /* Controller */,
+				D6D5D2B21E3D05A000748468 /* Model */,
+				D6D5D2B31E3D05A000748468 /* View */,
+				D6D5D2B41E3D05A000748468 /* ViewModel */,
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		D6D5D2951E3D03E700748468 /* Controller */ = {
+		D6D5D2B11E3D05A000748468 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		D6D5D2961E3D03E700748468 /* Model */ = {
+		D6D5D2B21E3D05A000748468 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		D6D5D2971E3D03E700748468 /* View */ = {
+		D6D5D2B31E3D05A000748468 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		D6D5D2981E3D03E700748468 /* ViewModel */ = {
+		D6D5D2B41E3D05A000748468 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		D6D5D2991E3D03E700748468 /* Live */ = {
+		D6D5D2B51E3D05A000748468 /* Live */ = {
 			isa = PBXGroup;
 			children = (
-				D6D5D29A1E3D03E700748468 /* Controller */,
-				D6D5D29B1E3D03E700748468 /* Model */,
-				D6D5D29C1E3D03E700748468 /* View */,
-				D6D5D29D1E3D03E700748468 /* ViewModel */,
+				D6D5D2B61E3D05A000748468 /* Controller */,
+				D6D5D2B71E3D05A000748468 /* Model */,
+				D6D5D2B81E3D05A000748468 /* View */,
+				D6D5D2B91E3D05A000748468 /* ViewModel */,
 			);
 			path = Live;
 			sourceTree = "<group>";
 		};
-		D6D5D29A1E3D03E700748468 /* Controller */ = {
+		D6D5D2B61E3D05A000748468 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		D6D5D29B1E3D03E700748468 /* Model */ = {
+		D6D5D2B71E3D05A000748468 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		D6D5D29C1E3D03E700748468 /* View */ = {
+		D6D5D2B81E3D05A000748468 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		D6D5D29D1E3D03E700748468 /* ViewModel */ = {
+		D6D5D2B91E3D05A000748468 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		D6D5D29E1E3D03E700748468 /* Main */ = {
+		D6D5D2BA1E3D05A000748468 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				D6D5D29F1E3D03E700748468 /* Controller */,
-				D6D5D2A01E3D03E700748468 /* Model */,
-				D6D5D2A11E3D03E700748468 /* View */,
-				D6D5D2A21E3D03E700748468 /* ViewModel */,
+				D6D5D2BB1E3D05A000748468 /* Controller */,
+				D6D5D2BC1E3D05A000748468 /* Model */,
+				D6D5D2BD1E3D05A000748468 /* View */,
+				D6D5D2BE1E3D05A000748468 /* ViewModel */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		D6D5D29F1E3D03E700748468 /* Controller */ = {
+		D6D5D2BB1E3D05A000748468 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		D6D5D2A01E3D03E700748468 /* Model */ = {
+		D6D5D2BC1E3D05A000748468 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		D6D5D2A11E3D03E700748468 /* View */ = {
+		D6D5D2BD1E3D05A000748468 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		D6D5D2A21E3D03E700748468 /* ViewModel */ = {
+		D6D5D2BE1E3D05A000748468 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		D6D5D2A31E3D03E700748468 /* Profile */ = {
+		D6D5D2BF1E3D05A000748468 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		D6D5D2A41E3D03E700748468 /* Room */ = {
+		D6D5D2C01E3D05A000748468 /* Room */ = {
 			isa = PBXGroup;
 			children = (
-				D6D5D2A51E3D03E700748468 /* Controller */,
-				D6D5D2A61E3D03E700748468 /* Model */,
-				D6D5D2A71E3D03E700748468 /* View */,
-				D6D5D2A81E3D03E700748468 /* ViewModel */,
+				D6D5D2C11E3D05A000748468 /* Controller */,
+				D6D5D2C21E3D05A000748468 /* Model */,
+				D6D5D2C31E3D05A000748468 /* View */,
+				D6D5D2C41E3D05A000748468 /* ViewModel */,
 			);
 			path = Room;
 			sourceTree = "<group>";
 		};
-		D6D5D2A51E3D03E700748468 /* Controller */ = {
+		D6D5D2C11E3D05A000748468 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		D6D5D2A61E3D03E700748468 /* Model */ = {
+		D6D5D2C21E3D05A000748468 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		D6D5D2A71E3D03E700748468 /* View */ = {
+		D6D5D2C31E3D05A000748468 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		D6D5D2A81E3D03E700748468 /* ViewModel */ = {
+		D6D5D2C41E3D05A000748468 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		D6D5D2A91E3D03E700748468 /* Tools */ = {
+		D6D5D2C51E3D05A000748468 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
 			);
