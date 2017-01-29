@@ -15,6 +15,7 @@
 		D666DF9E1E3AC4120035DBFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D666DF9C1E3AC4120035DBFD /* LaunchScreen.storyboard */; };
 		D666DFA91E3AC4120035DBFD /* __TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D666DFA81E3AC4120035DBFD /* __TVTests.swift */; };
 		D666DFB41E3AC4120035DBFD /* __TVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D666DFB31E3AC4120035DBFD /* __TVUITests.swift */; };
+		D6D5D43F1E3D6E6200748468 /* tou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6D5D43E1E3D6E6200748468 /* tou.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 /* Begin PBXFileReference section */
 		72BEC5094B465522DB540C87 /* Pods-斗鱼TV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-斗鱼TV.release.xcconfig"; path = "Pods/Target Support Files/Pods-斗鱼TV/Pods-斗鱼TV.release.xcconfig"; sourceTree = "<group>"; };
 		7903866D02B8D3974513C8E8 /* Pods-斗鱼TV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-斗鱼TV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-斗鱼TV/Pods-斗鱼TV.debug.xcconfig"; sourceTree = "<group>"; };
-		9962DE35AB5F4337A3066EA9 /* Pods___TV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods___TV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9962DE35AB5F4337A3066EA9 /* Pods___TV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods___TV.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D666DF901E3AC4120035DBFD /* 斗鱼TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "斗鱼TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D666DF931E3AC4120035DBFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D666DF951E3AC4120035DBFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		D666DFAF1E3AC4120035DBFD /* 斗鱼TVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "斗鱼TVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D666DFB31E3AC4120035DBFD /* __TVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __TVUITests.swift; sourceTree = "<group>"; };
 		D666DFB51E3AC4120035DBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6D5D43E1E3D6E6200748468 /* tou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tou.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		D666DF921E3AC4120035DBFD /* 斗鱼TV */ = {
 			isa = PBXGroup;
 			children = (
+				D6D5D43D1E3D6E6200748468 /* classes */,
 				D666DF931E3AC4120035DBFD /* AppDelegate.swift */,
 				D666DF951E3AC4120035DBFD /* ViewController.swift */,
 				D666DF971E3AC4120035DBFD /* Main.storyboard */,
@@ -139,6 +142,14 @@
 				D666DFB51E3AC4120035DBFD /* Info.plist */,
 			);
 			path = "斗鱼TVUITests";
+			sourceTree = "<group>";
+		};
+		D6D5D43D1E3D6E6200748468 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				D6D5D43E1E3D6E6200748468 /* tou.jpg */,
+			);
+			path = classes;
 			sourceTree = "<group>";
 		};
 		EC67F4ED385734EF75D9DF5B /* Frameworks */ = {
@@ -264,6 +275,7 @@
 			files = (
 				D666DF9E1E3AC4120035DBFD /* LaunchScreen.storyboard in Resources */,
 				D666DF9B1E3AC4120035DBFD /* Assets.xcassets in Resources */,
+				D6D5D43F1E3D6E6200748468 /* tou.jpg in Resources */,
 				D666DF991E3AC4120035DBFD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -591,6 +603,7 @@
 				D666DFBA1E3AC4120035DBFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D666DFBB1E3AC4120035DBFD /* Build configuration list for PBXNativeTarget "斗鱼TVTests" */ = {
 			isa = XCConfigurationList;
@@ -599,6 +612,7 @@
 				D666DFBD1E3AC4120035DBFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D666DFBE1E3AC4120035DBFD /* Build configuration list for PBXNativeTarget "斗鱼TVUITests" */ = {
 			isa = XCConfigurationList;
@@ -607,6 +621,7 @@
 				D666DFC01E3AC4120035DBFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
