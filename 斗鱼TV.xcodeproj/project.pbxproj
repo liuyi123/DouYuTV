@@ -115,6 +115,7 @@
 		D666DF921E3AC4120035DBFD /* 斗鱼TV */ = {
 			isa = PBXGroup;
 			children = (
+				D6D5D4401E3D6E9200748468 /* why */,
 				D6D5D43D1E3D6E6200748468 /* classes */,
 				D666DF931E3AC4120035DBFD /* AppDelegate.swift */,
 				D666DF951E3AC4120035DBFD /* ViewController.swift */,
@@ -150,6 +151,13 @@
 				D6D5D43E1E3D6E6200748468 /* tou.jpg */,
 			);
 			path = classes;
+			sourceTree = "<group>";
+		};
+		D6D5D4401E3D6E9200748468 /* why */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = why;
 			sourceTree = "<group>";
 		};
 		EC67F4ED385734EF75D9DF5B /* Frameworks */ = {
