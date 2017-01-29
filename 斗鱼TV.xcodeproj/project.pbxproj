@@ -33,6 +33,10 @@
 		D611A3391E3DFE42000CE916 /* tou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D611A31E1E3DFE42000CE916 /* tou.jpg */; };
 		D611A33A1E3DFE42000CE916 /* tou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D611A3201E3DFE42000CE916 /* tou.jpg */; };
 		D611A33B1E3DFE42000CE916 /* tou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D611A3221E3DFE42000CE916 /* tou.jpg */; };
+		D611A33E1E3E025B000CE916 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D611A33C1E3E025B000CE916 /* Home.storyboard */; };
+		D611A3411E3E0292000CE916 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D611A33F1E3E0292000CE916 /* Live.storyboard */; };
+		D611A3441E3E02D9000CE916 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D611A3421E3E02D9000CE916 /* Follow.storyboard */; };
+		D611A3471E3E0317000CE916 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D611A3451E3E0317000CE916 /* Profile.storyboard */; };
 		D666DF941E3AC4120035DBFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D666DF931E3AC4120035DBFD /* AppDelegate.swift */; };
 		D666DF961E3AC4120035DBFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D666DF951E3AC4120035DBFD /* ViewController.swift */; };
 		D666DF991E3AC4120035DBFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D666DF971E3AC4120035DBFD /* Main.storyboard */; };
@@ -40,7 +44,6 @@
 		D666DF9E1E3AC4120035DBFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D666DF9C1E3AC4120035DBFD /* LaunchScreen.storyboard */; };
 		D666DFA91E3AC4120035DBFD /* __TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D666DFA81E3AC4120035DBFD /* __TVTests.swift */; };
 		D666DFB41E3AC4120035DBFD /* __TVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D666DFB31E3AC4120035DBFD /* __TVUITests.swift */; };
-		D6D5D45F1E3D6F8900748468 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D5D45D1E3D6F8900748468 /* Home.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +92,10 @@
 		D611A31E1E3DFE42000CE916 /* tou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tou.jpg; sourceTree = "<group>"; };
 		D611A3201E3DFE42000CE916 /* tou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tou.jpg; sourceTree = "<group>"; };
 		D611A3221E3DFE42000CE916 /* tou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tou.jpg; sourceTree = "<group>"; };
+		D611A33D1E3E025B000CE916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "斗鱼TV/Base.lproj/Home.storyboard"; sourceTree = SOURCE_ROOT; };
+		D611A3401E3E0292000CE916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "斗鱼TV/Base.lproj/Live.storyboard"; sourceTree = SOURCE_ROOT; };
+		D611A3431E3E02D9000CE916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "斗鱼TV/Base.lproj/Follow.storyboard"; sourceTree = SOURCE_ROOT; };
+		D611A3461E3E0317000CE916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "斗鱼TV/Base.lproj/Profile.storyboard"; sourceTree = SOURCE_ROOT; };
 		D666DF901E3AC4120035DBFD /* 斗鱼TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "斗鱼TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D666DF931E3AC4120035DBFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D666DF951E3AC4120035DBFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,7 +109,6 @@
 		D666DFAF1E3AC4120035DBFD /* 斗鱼TVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "斗鱼TVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D666DFB31E3AC4120035DBFD /* __TVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __TVUITests.swift; sourceTree = "<group>"; };
 		D666DFB51E3AC4120035DBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6D5D45E1E3D6F8900748468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +163,7 @@
 		D611A2EB1E3DFE42000CE916 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				D611A3421E3E02D9000CE916 /* Follow.storyboard */,
 				D611A2EC1E3DFE42000CE916 /* Controller */,
 				D611A2EE1E3DFE42000CE916 /* Model */,
 				D611A2F01E3DFE42000CE916 /* View */,
@@ -200,6 +207,7 @@
 		D611A2F41E3DFE42000CE916 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				D611A33C1E3E025B000CE916 /* Home.storyboard */,
 				D611A2F51E3DFE42000CE916 /* Controller */,
 				D611A2F71E3DFE42000CE916 /* Model */,
 				D611A2F91E3DFE42000CE916 /* View */,
@@ -243,6 +251,7 @@
 		D611A2FD1E3DFE42000CE916 /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				D611A33F1E3E0292000CE916 /* Live.storyboard */,
 				D611A2FE1E3DFE42000CE916 /* Controller */,
 				D611A3001E3DFE42000CE916 /* Model */,
 				D611A3021E3DFE42000CE916 /* View */,
@@ -286,6 +295,7 @@
 		D611A3061E3DFE42000CE916 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				D666DF971E3AC4120035DBFD /* Main.storyboard */,
 				D611A3071E3DFE42000CE916 /* Controller */,
 				D611A3091E3DFE42000CE916 /* Model */,
 				D611A30B1E3DFE42000CE916 /* View */,
@@ -329,6 +339,7 @@
 		D611A30F1E3DFE42000CE916 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				D611A3451E3E0317000CE916 /* Profile.storyboard */,
 				D611A3101E3DFE42000CE916 /* Controller */,
 				D611A3121E3DFE42000CE916 /* Model */,
 				D611A3141E3DFE42000CE916 /* View */,
@@ -448,8 +459,6 @@
 				D611A2EA1E3DFE42000CE916 /* Classes */,
 				D666DF931E3AC4120035DBFD /* AppDelegate.swift */,
 				D666DF951E3AC4120035DBFD /* ViewController.swift */,
-				D666DF971E3AC4120035DBFD /* Main.storyboard */,
-				D6D5D45D1E3D6F8900748468 /* Home.storyboard */,
 				D666DF9A1E3AC4120035DBFD /* Assets.xcassets */,
 				D666DF9C1E3AC4120035DBFD /* LaunchScreen.storyboard */,
 				D666DF9F1E3AC4120035DBFD /* Info.plist */,
@@ -604,15 +613,17 @@
 				D611A3311E3DFE42000CE916 /* tou.jpg in Resources */,
 				D611A33B1E3DFE42000CE916 /* tou.jpg in Resources */,
 				D611A33A1E3DFE42000CE916 /* tou.jpg in Resources */,
+				D611A3411E3E0292000CE916 /* Live.storyboard in Resources */,
 				D611A3361E3DFE42000CE916 /* tou.jpg in Resources */,
 				D611A32D1E3DFE42000CE916 /* tou.jpg in Resources */,
 				D611A3331E3DFE42000CE916 /* tou.jpg in Resources */,
 				D666DF991E3AC4120035DBFD /* Main.storyboard in Resources */,
 				D611A3381E3DFE42000CE916 /* tou.jpg in Resources */,
 				D611A3301E3DFE42000CE916 /* tou.jpg in Resources */,
+				D611A33E1E3E025B000CE916 /* Home.storyboard in Resources */,
+				D611A3441E3E02D9000CE916 /* Follow.storyboard in Resources */,
 				D611A3231E3DFE42000CE916 /* tou.jpg in Resources */,
 				D611A3341E3DFE42000CE916 /* tou.jpg in Resources */,
-				D6D5D45F1E3D6F8900748468 /* Home.storyboard in Resources */,
 				D611A32C1E3DFE42000CE916 /* tou.jpg in Resources */,
 				D611A32A1E3DFE42000CE916 /* tou.jpg in Resources */,
 				D611A3271E3DFE42000CE916 /* tou.jpg in Resources */,
@@ -620,6 +631,7 @@
 				D611A3371E3DFE42000CE916 /* tou.jpg in Resources */,
 				D611A3281E3DFE42000CE916 /* tou.jpg in Resources */,
 				D611A32B1E3DFE42000CE916 /* tou.jpg in Resources */,
+				D611A3471E3E0317000CE916 /* Profile.storyboard in Resources */,
 				D611A3251E3DFE42000CE916 /* tou.jpg in Resources */,
 				D611A32E1E3DFE42000CE916 /* tou.jpg in Resources */,
 				D611A3391E3DFE42000CE916 /* tou.jpg in Resources */,
@@ -734,12 +746,49 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		D611A33C1E3E025B000CE916 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D611A33D1E3E025B000CE916 /* Base */,
+			);
+			name = Home.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		D611A33F1E3E0292000CE916 /* Live.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D611A3401E3E0292000CE916 /* Base */,
+			);
+			name = Live.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		D611A3421E3E02D9000CE916 /* Follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D611A3431E3E02D9000CE916 /* Base */,
+			);
+			name = Follow.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		D611A3451E3E0317000CE916 /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D611A3461E3E0317000CE916 /* Base */,
+			);
+			name = Profile.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
 		D666DF971E3AC4120035DBFD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D666DF981E3AC4120035DBFD /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		D666DF9C1E3AC4120035DBFD /* LaunchScreen.storyboard */ = {
@@ -748,14 +797,6 @@
 				D666DF9D1E3AC4120035DBFD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		D6D5D45D1E3D6F8900748468 /* Home.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D6D5D45E1E3D6F8900748468 /* Base */,
-			);
-			name = Home.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
