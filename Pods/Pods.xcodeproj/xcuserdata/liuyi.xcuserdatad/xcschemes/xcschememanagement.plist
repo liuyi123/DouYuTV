@@ -54,7 +54,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ReactiveCocoa.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>ReactiveObjC.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ReactiveSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Result.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -67,7 +82,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0B8EC8DE628306B4D016A890882355C7</key>
+		<key>002E96EBFE45D31BA21B0DC8BE8B1ADD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>12459AA44D8BF93FB11340613823EF83</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -87,7 +107,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>44D5250B83CCCB411504781BD7973813</key>
+		<key>4D4060ADFB067D4AED65230717EEE36D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -97,12 +117,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6E276F99E21724399D41B94FBF281425</key>
+		<key>60EB724FE6B287376C331E9E31299A1C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A3A466BCBB217A00FB293ADF94ED0045</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -123,6 +148,11 @@
 			<true/>
 		</dict>
 		<key>E14A62900910444707A5504D25EC98DC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FBC4B38C874C9C634B9326B05D117DA2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
