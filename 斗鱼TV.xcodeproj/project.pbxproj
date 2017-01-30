@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9DA33E2A7D5A9A4A0375473F /* Pods___TV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9962DE35AB5F4337A3066EA9 /* Pods___TV.framework */; };
+		D60F1FBE1E3F82940084CA86 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60F1FBD1E3F82940084CA86 /* MainController.swift */; };
+		D60F1FC01E3F9CBE0084CA86 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60F1FBF1E3F9CBE0084CA86 /* Common.swift */; };
+		D60F1FC21E3F9E4A0084CA86 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60F1FC11E3F9E4A0084CA86 /* PageTitleView.swift */; };
 		D611A3231E3DFE42000CE916 /* tou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D611A2ED1E3DFE42000CE916 /* tou.jpg */; };
 		D611A3241E3DFE42000CE916 /* tou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D611A2EF1E3DFE42000CE916 /* tou.jpg */; };
 		D611A3251E3DFE42000CE916 /* tou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D611A2F11E3DFE42000CE916 /* tou.jpg */; };
@@ -37,6 +40,10 @@
 		D611A3411E3E0292000CE916 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D611A33F1E3E0292000CE916 /* Live.storyboard */; };
 		D611A3441E3E02D9000CE916 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D611A3421E3E02D9000CE916 /* Follow.storyboard */; };
 		D611A3471E3E0317000CE916 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D611A3451E3E0317000CE916 /* Profile.storyboard */; };
+		D611A3501E3E16D4000CE916 /* NSDate-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D611A34D1E3E16D4000CE916 /* NSDate-Extension.swift */; };
+		D611A3511E3E16D4000CE916 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D611A34E1E3E16D4000CE916 /* UIBarButtonItem-Extension.swift */; };
+		D611A3521E3E16D4000CE916 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D611A34F1E3E16D4000CE916 /* UIColor-Extension.swift */; };
+		D611A3541E3E18C0000CE916 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D611A3531E3E18C0000CE916 /* HomeVC.swift */; };
 		D666DF941E3AC4120035DBFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D666DF931E3AC4120035DBFD /* AppDelegate.swift */; };
 		D666DF961E3AC4120035DBFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D666DF951E3AC4120035DBFD /* ViewController.swift */; };
 		D666DF991E3AC4120035DBFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D666DF971E3AC4120035DBFD /* Main.storyboard */; };
@@ -67,6 +74,9 @@
 		72BEC5094B465522DB540C87 /* Pods-斗鱼TV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-斗鱼TV.release.xcconfig"; path = "Pods/Target Support Files/Pods-斗鱼TV/Pods-斗鱼TV.release.xcconfig"; sourceTree = "<group>"; };
 		7903866D02B8D3974513C8E8 /* Pods-斗鱼TV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-斗鱼TV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-斗鱼TV/Pods-斗鱼TV.debug.xcconfig"; sourceTree = "<group>"; };
 		9962DE35AB5F4337A3066EA9 /* Pods___TV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods___TV.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60F1FBD1E3F82940084CA86 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		D60F1FBF1E3F9CBE0084CA86 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		D60F1FC11E3F9E4A0084CA86 /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
 		D611A2ED1E3DFE42000CE916 /* tou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tou.jpg; sourceTree = "<group>"; };
 		D611A2EF1E3DFE42000CE916 /* tou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tou.jpg; sourceTree = "<group>"; };
 		D611A2F11E3DFE42000CE916 /* tou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tou.jpg; sourceTree = "<group>"; };
@@ -96,6 +106,10 @@
 		D611A3401E3E0292000CE916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "斗鱼TV/Base.lproj/Live.storyboard"; sourceTree = SOURCE_ROOT; };
 		D611A3431E3E02D9000CE916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "斗鱼TV/Base.lproj/Follow.storyboard"; sourceTree = SOURCE_ROOT; };
 		D611A3461E3E0317000CE916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "斗鱼TV/Base.lproj/Profile.storyboard"; sourceTree = SOURCE_ROOT; };
+		D611A34D1E3E16D4000CE916 /* NSDate-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate-Extension.swift"; sourceTree = "<group>"; };
+		D611A34E1E3E16D4000CE916 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
+		D611A34F1E3E16D4000CE916 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		D611A3531E3E18C0000CE916 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		D666DF901E3AC4120035DBFD /* 斗鱼TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "斗鱼TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D666DF931E3AC4120035DBFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D666DF951E3AC4120035DBFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -207,7 +221,6 @@
 		D611A2F41E3DFE42000CE916 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				D611A33C1E3E025B000CE916 /* Home.storyboard */,
 				D611A2F51E3DFE42000CE916 /* Controller */,
 				D611A2F71E3DFE42000CE916 /* Model */,
 				D611A2F91E3DFE42000CE916 /* View */,
@@ -220,6 +233,8 @@
 			isa = PBXGroup;
 			children = (
 				D611A2F61E3DFE42000CE916 /* tou.jpg */,
+				D611A33C1E3E025B000CE916 /* Home.storyboard */,
+				D611A3531E3E18C0000CE916 /* HomeVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -307,6 +322,7 @@
 		D611A3071E3DFE42000CE916 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D60F1FBD1E3F82940084CA86 /* MainController.swift */,
 				D611A3081E3DFE42000CE916 /* tou.jpg */,
 			);
 			path = Controller;
@@ -324,6 +340,7 @@
 			isa = PBXGroup;
 			children = (
 				D611A30C1E3DFE42000CE916 /* tou.jpg */,
+				D60F1FC11E3F9E4A0084CA86 /* PageTitleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -426,9 +443,21 @@
 		D611A3211E3DFE42000CE916 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				D611A34C1E3E16D4000CE916 /* Extension */,
 				D611A3221E3DFE42000CE916 /* tou.jpg */,
+				D60F1FBF1E3F9CBE0084CA86 /* Common.swift */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		D611A34C1E3E16D4000CE916 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D611A34D1E3E16D4000CE916 /* NSDate-Extension.swift */,
+				D611A34E1E3E16D4000CE916 /* UIBarButtonItem-Extension.swift */,
+				D611A34F1E3E16D4000CE916 /* UIColor-Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		D666DF871E3AC4120035DBFD = {
@@ -709,7 +738,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D60F1FC01E3F9CBE0084CA86 /* Common.swift in Sources */,
+				D611A3511E3E16D4000CE916 /* UIBarButtonItem-Extension.swift in Sources */,
+				D60F1FBE1E3F82940084CA86 /* MainController.swift in Sources */,
+				D611A3541E3E18C0000CE916 /* HomeVC.swift in Sources */,
+				D611A3521E3E16D4000CE916 /* UIColor-Extension.swift in Sources */,
 				D666DF961E3AC4120035DBFD /* ViewController.swift in Sources */,
+				D60F1FC21E3F9E4A0084CA86 /* PageTitleView.swift in Sources */,
+				D611A3501E3E16D4000CE916 /* NSDate-Extension.swift in Sources */,
 				D666DF941E3AC4120035DBFD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -752,7 +788,7 @@
 				D611A33D1E3E025B000CE916 /* Base */,
 			);
 			name = Home.storyboard;
-			path = ../Main;
+			path = ../../Main;
 			sourceTree = "<group>";
 		};
 		D611A33F1E3E0292000CE916 /* Live.storyboard */ = {
@@ -902,6 +938,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z7E635ANVA;
 				INFOPLIST_FILE = "斗鱼TV/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaozhi.--TV";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -916,6 +953,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z7E635ANVA;
 				INFOPLIST_FILE = "斗鱼TV/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaozhi.--TV";
 				PRODUCT_NAME = "$(TARGET_NAME)";
