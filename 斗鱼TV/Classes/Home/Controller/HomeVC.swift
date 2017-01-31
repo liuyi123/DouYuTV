@@ -10,7 +10,27 @@ import UIKit
 private let kTitleViewH : CGFloat = 40
 class HomeVC: UIViewController {
     
-    fileprivate lazy var pageTitleView : PageTitleView = {
+    fileprivate lazy var pageContentViews : pageContentView = {[weak self] in
+      
+        
+        let contentH = kScreenH - kStatusBarH - kNavigationBarH - kTitleViewH - kTabbarH
+        let contentFrame = CGRect(x: 0, y: kStatusBarH + kNavigationBarH + kTitleViewH, width: kScreenW, height: contentH)
+        
+        var childVCs=[UIViewController]()
+        
+        for _ in 0...4{
+          let vc =  UIViewController()
+            
+            vc.view.backgroundColor=UIColor.randomColor()
+            childVCs.append(vc)
+        }
+       
+        let contentView = pageContentView(frame: contentFrame, childVcs: childVCs, parentViewController: self!)
+        
+        return contentView
+    }()
+    
+    fileprivate lazy var pageTitleView : PageTitleView = {[weak self] in
         let titleFrame = CGRect(x: 0, y: kStatusBarH + kNavigationBarH, width: kScreenW, height: kTitleViewH)
         let titles = ["推荐", "游戏", "娱乐", "趣玩"]
         let titleView = PageTitleView(frame: titleFrame, titles: titles)
@@ -41,6 +61,9 @@ extension HomeVC {
         setupNavigationBar()
         // 2.添加TitleView
         view.addSubview(pageTitleView)
+        // 2.添加pageContentView
+        view.addSubview(pageContentViews)
+
         
     }
     fileprivate func setupNavigationBar() {
