@@ -10,31 +10,36 @@ import UIKit
 private let kTitleViewH : CGFloat = 40
 class HomeVC: UIViewController {
     
+
+    
+    fileprivate lazy var pageTitleView : PageTitleView = {[weak self] in
+        let titleFrame = CGRect(x: 0, y: kStatusBarH + kNavigationBarH, width: kScreenW, height: kTitleViewH)
+        let titles = ["推荐", "游戏", "娱乐", "趣玩"]
+        let titleView = PageTitleView(frame: titleFrame, titles: titles)
+        titleView.delegate=self
+        return titleView
+        }()
+    
     fileprivate lazy var pageContentViews : pageContentView = {[weak self] in
-      
+        
         
         let contentH = kScreenH - kStatusBarH - kNavigationBarH - kTitleViewH - kTabbarH
         let contentFrame = CGRect(x: 0, y: kStatusBarH + kNavigationBarH + kTitleViewH, width: kScreenW, height: contentH)
         
         var childVCs=[UIViewController]()
         
-        for _ in 0...4{
-          let vc =  UIViewController()
+        for _ in 0...3{
+            let vc =  UIViewController()
             
             vc.view.backgroundColor=UIColor.randomColor()
             childVCs.append(vc)
         }
+        
+        
        
         let contentView = pageContentView(frame: contentFrame, childVcs: childVCs, parentViewController: self!)
-        
+            contentView.delegate = self
         return contentView
-    }()
-    
-    fileprivate lazy var pageTitleView : PageTitleView = {[weak self] in
-        let titleFrame = CGRect(x: 0, y: kStatusBarH + kNavigationBarH, width: kScreenW, height: kTitleViewH)
-        let titles = ["推荐", "游戏", "娱乐", "趣玩"]
-        let titleView = PageTitleView(frame: titleFrame, titles: titles)
-        return titleView
         }()
 
     override func viewDidLoad() {
@@ -75,8 +80,37 @@ extension HomeVC {
         let historyItem = UIBarButtonItem(imageName: "image_my_history", highImageName: "Image_my_history_click", size: size)
         let searchItem = UIBarButtonItem(imageName: "btn_search", highImageName: "btn_search_clicked", size: size)
         let qrcodeItem = UIBarButtonItem(imageName: "Image_scan", highImageName: "Image_scan_click", size: size)
-        navigationItem.rightBarButtonItems = [historyItem, searchItem, qrcodeItem]
+        navigationItem.rightBarButtonItems = [historyItem, searchItem ,qrcodeItem]
     }
 
 
+}
+
+// MARK:- 遵守PageTitleViewDelegate协议
+extension HomeVC : PageTietleViewDelegate {
+    
+    func pageTitleView(_ titleView: PageTitleView, selectedIndex index: Int) {
+        
+        pageContentViews.setCurrentIndex(index)
+        
+    }
+
+}
+// MARK:- 遵守PageContentViewDelegate协议
+extension HomeVC : xxxxxxxDelegate {
+    
+//    func contentPage(page: Int) {
+//        
+//        pageTitleView.setCurrentPage(page)
+//    }
+    
+ 
+   func xxxxxxyyyyy(_ contentView: pageContentView, progress: CGFloat, sourceIndex: Int, targetIndex: Int) {
+    
+   
+            pageTitleView.setTitleWithProgress(progress, sourceIndex: sourceIndex, targetIndex: targetIndex)
+    
+    }
+    
+    
 }
